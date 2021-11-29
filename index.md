@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Dylan Sheldon - University Of Gloucestershire
 
 You can use the [editor on GitHub](https://github.com/sheldyso/sheldyso.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
