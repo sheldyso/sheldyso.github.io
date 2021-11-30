@@ -1,6 +1,8 @@
 ## Dylan Sheldon - University Of Gloucestershire
 
-## Applied Artificial Intelligence
+### About me
+
+For my degree, I am studying BSc Applied Artificial Intelligence at the University Of Gloucestershire.
 
 You can use the [editor on GitHub](https://github.com/sheldyso/sheldyso.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
