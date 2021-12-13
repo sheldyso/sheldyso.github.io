@@ -1,8 +1,20 @@
 ## Dylan Sheldon - University Of Gloucestershire
 
-### About me
+## About me
 
 For my degree, I am studying BSc Applied Artificial Intelligence at the University Of Gloucestershire.
+
+##Level 4
+
+At level 4, I had 4 modules.
+
+###Introduction to AI
+
+###Systems design and development
+
+###Programming alogrithms and techniques
+
+###Programming and mathematics
 
 You can use the [editor on GitHub](https://github.com/sheldyso/sheldyso.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
