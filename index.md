@@ -4,7 +4,7 @@
 
 For my degree, I am studying BSc Applied Artificial Intelligence at the University Of Gloucestershire.
 
-##Level 4
+## Level 4
 
 At level 4, I had 4 modules.
 
