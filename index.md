@@ -8,13 +8,13 @@ For my degree, I am studying BSc Applied Artificial Intelligence at the Universi
 
 At level 4, I had 4 modules.
 
-###Introduction to AI
+### Introduction to AI
 
-###Systems design and development
+### Systems design and development
 
-###Programming alogrithms and techniques
+### Programming alogrithms and techniques
 
-###Programming and mathematics
+### Programming and mathematics
 
 You can use the [editor on GitHub](https://github.com/sheldyso/sheldyso.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
