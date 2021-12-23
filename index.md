@@ -1,24 +1,42 @@
 ## Dylan Sheldon - University Of Gloucestershire
 
-## About me
+### About me
 
-For my degree, I am studying BSc Applied Artificial Intelligence at the University Of Gloucestershire.
+For my degree, I am currently studying BSc Applied Artificial Intelligence at the University Of Gloucestershire.
 
 ## Level 4
 
 At level 4, I had 4 modules.
 
-### Introduction to AI
+## Introduction to AI
 
-### Systems design and development
+### Semester 1 - Training a Fastai Convolutional Neural Network
 
-### Programming alogrithms and techniques
+### Semester 2 - SciKit-Learn data insights and visualisation
 
-### Programming and mathematics
+## Systems design and development
 
-You can use the [editor on GitHub](https://github.com/sheldyso/sheldyso.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+### Semester 1 - Business Report
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Semester 2 - 
+
+## Programming alogrithms and techniques
+
+### Semester 1 - ASCII Game Engine
+
+### Semester 2 - 
+
+## Programming and mathematics
+
+### Semester 1 - Clay Pigeon Shooting Simulation
+
+### Semester 2 - 
+
+## Additional Projects
+
+
+
+
 
 ### Markdown
 
@@ -43,11 +61,3 @@ Syntax highlighted code block
 ```
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sheldyso/sheldyso.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
