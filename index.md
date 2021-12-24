@@ -12,6 +12,9 @@ At level 4, I had 4 modules.
 
 ### Semester 1 - Training a Fastai Convolutional Neural Network
 
+In this module, I used a rock, paper, scissors image dataset and created mutiple CNN learners to explore different methods of improving the accuracy of the predictions. This was done in a Jupyter notebook using google colaboratory for the training. This was also paired with SciKit-image.
+The completed notebook can be viewed [here](https://github.com/sheldyso/Rock-Paper-Scissors-CNN).
+
 ### Semester 2 - SciKit-Learn data insights and visualisation
 
 ## Systems design and development
