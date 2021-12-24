@@ -6,7 +6,7 @@ For my degree, I am currently studying BSc Applied Artificial Intelligence at th
 
 ## Level 4
 
-At level 4, I had 4 modules.
+At level 4, I had 8 Assignments in 4 modules spread across 2 semesters.
 
 ## Introduction to AI
 
