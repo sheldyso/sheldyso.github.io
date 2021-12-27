@@ -21,6 +21,8 @@ The completed notebook can be viewed [here](https://github.com/sheldyso/Rock-Pap
 
 ### Semester 1 - Business Report
 
+For this assignment, I had to create a business report on a project that would utilise a given dataset which was a customer personality analysis dataset from [kaggle](https://www.kaggle.com/imakash3011/customer-personality-analysis).
+
 ### Semester 2 - 
 
 ## Programming alogrithms and techniques
