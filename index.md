@@ -12,7 +12,15 @@ At level 4, I had 8 Assignments in 4 modules spread across 2 semesters.
 
 ### Semester 1 - Training a Fastai Convolutional Neural Network
 
-In this module, I used a rock, paper, scissors image dataset and created mutiple CNN learners to explore different methods of improving the accuracy of the predictions. This was done in a Jupyter notebook using google colaboratory for the training. This was also paired with SciKit-image.
+In this module, I used a rock, paper, scissors image dataset and created mutiple CNN learners to explore different methods of improving the accuracy of the predictions. This was done in a Jupyter notebook using google colaboratory for the training. This was also paired with SciKit-image. The following libraries were used:
+- numpy
+- pandas
+- os
+- fastai
+- skimage
+- random
+
+The Test, Train and Validation sets were already seperated into 2 duplicate folders. One was used for the original Training to gauge a baseline and then another to add Augmented images for further training. Initially, the predictions were not accurate on the unmodified dataset. The model was confusing scissors for hands. I tried finding the optimum learning rate which proved to be inaffective when predicting on the Validation set. The first learner produced inconsistent graphs when training. After trying larger image sizes, the model seemed to improve slightly but not enough. I then tried Image Augmentation with SciKit-Image. I created 2 functions, One to randomly rotate an image, and the other to Iterate over a given Directory of images and return new copies of the images with random rotations. This took Approximately 8 mins to run and generated 2157 images, doubling the starting total. Using this expanded set improved the accuracy pf the predictions significantly. Additionally, I trained this model again using a larger resnet size of 50 instead of 32, which guessed only 3 wrong out of the 33 in the validation set. This results in an accuracy of 90.91%.
 The completed notebook can be viewed [here](https://github.com/sheldyso/Rock-Paper-Scissors-CNN).
 
 ### Semester 2 - SciKit-Learn data insights and visualisation
