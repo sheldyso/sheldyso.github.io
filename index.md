@@ -10,7 +10,7 @@ At level 4, I have 8 Assignments in 4 modules spread across 2 semesters.
 
 ## Introduction to AI
 
-### Semester 1 - Training a Fastai Convolutional Neural Network (Jupyter NoteBook)
+### Semester 1 - Training a Fastai Convolutional Neural Network ( Jupyter NoteBook )
 
 For this assignment, I used a rock, paper, scissors image dataset and created mutiple CNN learners to explore different methods of improving the accuracy of the predictions. This was done in a Jupyter notebook using google colaboratory for the training. This was also paired with SciKit-image. The following libraries were used:
 - numpy
@@ -39,36 +39,34 @@ For this assignment, I had to create a business report on a project that would u
 
 **Current Assignment**
 
-### Semester 1 - ASCII Game Engine (C++)
+### Semester 1 - ASCII Game Engine ( C++ )
 
 In this assignment, I had to create an approximation of the classic 1979 Atari game, "Lunar Lander" with a supporting video to show the gameplay.
 
 The following libraries were used:
-
 - Windows.h
 - string
 - chrono
 
-I created a Game.cpp file that contained the game logic to reduce the size of Main.cpp. Additional Header files were also made:
 
+I created a Game.cpp file that contained the game logic to reduce the size of Main.cpp. Additional Header files were also made:
 - Constants.h
 - Utility.h
 - GameObjects.h
 - Game.h
 
 
-
 The Lander had to respond to Keyboard inputs 
 
 This VS project can be found [here](https://github.com/sheldyso/ASCII-Lunar-Lander).
 
-### Semester 2 - 
+### Semester 2 - Retro Arcade Classic ( C++ )
 
 **Current Assignment**
 
 ## Programming and mathematics
 
-### Semester 1 - Clay Pigeon Shooting Simulation
+### Semester 1 - Clay Pigeon Shooting Simulation ( Unity. C# )
 
 ### Semester 2 - 
 
