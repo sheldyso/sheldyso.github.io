@@ -6,13 +6,13 @@ For my degree, I am currently studying BSc Applied Artificial Intelligence at th
 
 ## Level 4
 
-At level 4, I had 8 Assignments in 4 modules spread across 2 semesters.
+At level 4, I have 8 Assignments in 4 modules spread across 2 semesters.
 
 ## Introduction to AI
 
-### Semester 1 - Training a Fastai Convolutional Neural Network
+### Semester 1 - Training a Fastai Convolutional Neural Network (Jupyter NoteBook)
 
-In this module, I used a rock, paper, scissors image dataset and created mutiple CNN learners to explore different methods of improving the accuracy of the predictions. This was done in a Jupyter notebook using google colaboratory for the training. This was also paired with SciKit-image. The following libraries were used:
+For this assignment, I used a rock, paper, scissors image dataset and created mutiple CNN learners to explore different methods of improving the accuracy of the predictions. This was done in a Jupyter notebook using google colaboratory for the training. This was also paired with SciKit-image. The following libraries were used:
 - numpy
 - pandas
 - os
@@ -25,6 +25,8 @@ The completed notebook can be viewed [here](https://github.com/sheldyso/Rock-Pap
 
 ### Semester 2 - SciKit-Learn data insights and visualisation
 
+**Current Assignment**
+
 ## Systems design and development
 
 ### Semester 1 - Business Report
@@ -35,9 +37,34 @@ For this assignment, I had to create a business report on a project that would u
 
 ## Programming alogrithms and techniques
 
-### Semester 1 - ASCII Game Engine
+**Current Assignment**
+
+### Semester 1 - ASCII Game Engine (C++)
+
+In this assignment, I had to create an approximation of the classic 1979 Atari game, "Lunar Lander" with a supporting video to show the gameplay.
+
+The following libraries were used:
+
+- Windows.h
+- string
+- chrono
+
+I created a Game.cpp file that contained the game logic to reduce the size of Main.cpp. Additional Header files were also made:
+
+- Constants.h
+- Utility.h
+- GameObjects.h
+- Game.h
+
+
+
+The Lander had to respond to Keyboard inputs 
+
+This VS project can be found [here](https://github.com/sheldyso/ASCII-Lunar-Lander).
 
 ### Semester 2 - 
+
+**Current Assignment**
 
 ## Programming and mathematics
 
@@ -45,10 +72,13 @@ For this assignment, I had to create a business report on a project that would u
 
 ### Semester 2 - 
 
+**Current Assignment**
+
+## Students' Union Course Representative
+
+Alongside my studies, I opted to be the Course Representative for Level 4 (BSc) Applied Artificial Intelligence. This role came with a vast amount of learning opportunities and multiple responsibilities.
+
 ## Additional Projects
-
-### Flower Recognition
-
 
 
 ### Markdown
