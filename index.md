@@ -75,6 +75,8 @@ This VS project can be found [here](https://github.com/sheldyso/ASCII-Lunar-Land
 ## Students' Union Course Representative
 
 Alongside my studies, I opted to be the Course Representative for Level 4 (BSc) Applied Artificial Intelligence. This role came with a vast amount of learning opportunities and multiple responsibilities.
+### Role:
+As a Course Representative, I have to take Feedback from my Course-mates as needed and then depending on the matter raised, respond to the Student Subject Coordinator or the Academic Course Leader. There are also Crucial meetings the University Organise on a semester basis. Semester 1 Contained a 
 
 ## Additional Projects
 
