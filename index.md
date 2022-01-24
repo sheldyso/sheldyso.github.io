@@ -8,7 +8,7 @@ For my degree, I am currently studying BSc Applied Artificial Intelligence at th
 
 At level 4, I have 8 Assignments in 4 modules spread across 2 semesters.
 
-## Introduction to AI
+## Introduction to Artificial Intelligence
 
 ### Semester 1 - Training a Fastai Convolutional Neural Network ( Jupyter NoteBook )
 
