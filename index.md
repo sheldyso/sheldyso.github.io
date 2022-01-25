@@ -48,8 +48,7 @@ The following libraries were used:
 - string
 - chrono
 
-
-I created a Game.cpp file that contained the game logic to reduce the size of Main.cpp. Additional Header files were also made:
+Initially, the game was developed inside of Main.cpp, whilst this helped to set out the initial structure, it cluttered the overall code and needed to be seperated into the appropriate files. I created a Game.cpp file that contained the game logic to reduce the size of Main.cpp. Additional Header files were also made:
 - Constants.h
 - Utility.h
 - GameObjects.h
@@ -61,6 +60,8 @@ The Lander had to respond to Keyboard inputs
 This VS project can be found [here](https://github.com/sheldyso/ASCII-Lunar-Lander).
 
 ### Semester 2 - Retro Arcade Classic ( C++ )
+
+This assignment required use of a single header Game library developed by Sumo Digital called the "PlayBuffer" library.
 
 **Current Assignment**
 
@@ -76,31 +77,6 @@ This VS project can be found [here](https://github.com/sheldyso/ASCII-Lunar-Land
 
 Alongside my studies, I opted to be the Course Representative for Level 4 (BSc) Applied Artificial Intelligence. This role came with a vast amount of learning opportunities and multiple responsibilities.
 ### Role:
-As a Course Representative, I have to take Feedback from my Course-mates as needed and then depending on the matter raised, respond to the Student Subject Coordinator or the Academic Course Leader. There are also Crucial meetings the University Organise on a semester basis. Semester 1 Contained a 
+As a Course Representative, I have to take Feedback from my Course-mates as needed and then depending on the matter raised, respond to the Student Subject Coordinator or the Academic Course Leader. There are also Crucial meetings the University Organise on a semester basis. Semester 1 Contained an Academic Subject leader meeting and Creative Computing Course Conference.
 
 ## Additional Projects
-
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
