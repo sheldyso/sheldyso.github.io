@@ -67,7 +67,9 @@ This assignment required use of a single header Game library developed by Sumo D
 
 ## Programming and mathematics
 
-### Semester 1 - Clay Pigeon Shooting Simulation ( Unity. C# )
+### Semester 1 - Clay Pigeon Shooting Simulation ( Unity C# )
+
+For this assignment, I had to create my own Vector 2 and 3 classes 
 
 ### Semester 2 - 
 
