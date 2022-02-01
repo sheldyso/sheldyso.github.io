@@ -54,8 +54,12 @@ Initially, the game was developed inside of Main.cpp, whilst this helped to set 
 - GameObjects.h
 - Game.h
 
+Whilst being tasked to make a Game to demonstrate skills in the assignment, important points were taken from this. Such as:
 
-The Lander had to respond to Keyboard inputs 
+- Code structure
+- Adding and using libraries
+- Seperating code into headers and linking them
+- 
 
 This VS project can be found [here](https://github.com/sheldyso/ASCII-Lunar-Lander).
 
