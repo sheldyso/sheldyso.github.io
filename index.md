@@ -2,7 +2,7 @@
 
 ### About me
 
-For my degree, I am currently studying BSc Applied Artificial Intelligence at the University Of Gloucestershire.
+I am currently studying BSc Applied Artificial Intelligence at the University Of Gloucestershire. I am also a Course Representative within the students union which improves my skills and coordination in multiple areas.
 
 ## Level 4
 
@@ -27,7 +27,7 @@ The completed notebook can be viewed [here](https://github.com/sheldyso/Rock-Pap
 
 **Current Assignment**
 
-## Systems design and development
+## Systems Design and Development
 
 ### Semester 1 - Business Report
 
@@ -35,7 +35,7 @@ For this assignment, I had to create a business report on a project that would u
 
 ### Semester 2 - 
 
-## Programming alogrithms and techniques
+## Programming Alogrithms and Techniques
 
 **Current Assignment**
 
@@ -73,7 +73,7 @@ This assignment required use of a single header Game library developed by Sumo D
 
 ### Semester 1 - Clay Pigeon Shooting Simulation ( Unity C# )
 
-For this assignment, I had to create my own Vector 2 and 3 classes 
+For this assignment, the goal was to program projectile motion using SUVAT equations and interception calculations to create projectiles which would be targeted by a main cannon. I had to create my own classes to be used instead of the proprietary Unity classes which would include their own Dot product, Cross Product, .
 
 ### Semester 2 - 
 
