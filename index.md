@@ -2,7 +2,7 @@
 
 ### About me
 
-I am currently studying BSc Applied Artificial Intelligence at the University Of Gloucestershire. I am also a Course Representative within the students union which improves my skills and coordination in multiple areas. My LinkedIn page can be viewed [Here](www.linkedin.com/in/dylan-sheldon-0378281b9)
+I am currently studying BSc Applied Artificial Intelligence at the University Of Gloucestershire. I am also a Course Representative within the students union which improves my skills and coordination in multiple areas. My LinkedIn page can be viewed at www.linkedin.com/in/dylan-sheldon-0378281b9
 
 ## Level 4
 
