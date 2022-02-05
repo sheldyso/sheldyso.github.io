@@ -2,7 +2,7 @@
 
 ### About me
 
-I am currently studying BSc Applied Artificial Intelligence at the University Of Gloucestershire. I am also a Course Representative within the students union which improves my skills and coordination in multiple areas. My LinkedIn page can be viewed at www.linkedin.com/in/dylan-sheldon-0378281b9
+I am currently studying BSc Applied Artificial Intelligence at the University Of Gloucestershire. I am also a Course Representative within the students union which improves my skills and coordination in multiple areas. My LinkedIn page can be viewed [here](https://www.linkedin.com/in/dylan-sheldon-0378281b9/)
 
 ## Level 4
 
@@ -74,7 +74,7 @@ This assignment required use of a single header Game library developed by Sumo D
 
 ### Semester 1 - Clay Pigeon Shooting Simulation ( Unity,  C# )
 
-For this assignment, the goal was to program projectile motion using SUVAT equations and interception calculations to create projectiles which would be targeted by a main cannon. I had to create my own classes to be used instead of the proprietary Unity classes which would include their own Dot product, Cross Product, Magnitude, .
+For this assignment, the goal was to program projectile motion using SUVAT equations and interception calculations to create projectiles which would be targeted by a main cannon. I had to create my own classes to be used instead of the proprietary Unity classes which would include their own Dot product, Cross Product, Magnitude, Rotation and Vector Conversion functions.
 
 ### Semester 2 - 
 
@@ -88,5 +88,7 @@ Alongside my studies, I opted to be the Course Representative for Level 4 (BSc) 
 As a Course Representative, I have to take Feedback from my Course-mates as needed and then depending on the matter raised, respond to the Student Subject Coordinator or the Academic Course Leader. There are also Crucial meetings the University Organise on a semester basis. Each Semester Contains an Academic Subject leader meeting and Creative Computing Course Conference where student feedback is discussed, course changes are mentioned and other matters regarding IT or library services.
 
 ## Additional Projects
+
+### Certifications
 
 I am currently working towards a certificiation with [FreeCodeCamp](https://www.freecodecamp.org/learn/) on Scientific Computing with Python. Once completed, the certification will be available on LinkedIn. I also plan to complete the Data visualisation certification as it strongly coincides with my current studies in my Systems Design and Development and Introduction to AI module.
