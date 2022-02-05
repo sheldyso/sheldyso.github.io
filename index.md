@@ -31,7 +31,7 @@ The completed notebook can be viewed [here](https://github.com/sheldyso/Rock-Pap
 
 ### Semester 1 - Business Report
 
-For this assignment, I had to create a business report on a project that would utilise a given dataset which was a customer personality analysis dataset. The business report can be found [here](https://github.com/sheldyso/sheldyso.github.io/blob/main/Business%20Report.pdf).
+For this assignment, I had to create a business report on a project that would utilise data which was a customer personality analysis dataset. The business report can be found [here](https://github.com/sheldyso/sheldyso.github.io/blob/main/Business%20Report.pdf).
 
 ### Semester 2 - 
 
@@ -59,6 +59,7 @@ Whilst being tasked to make a Game to demonstrate skills in the assignment, impo
 - Code structure
 - Adding and using libraries
 - Seperating code into headers and linking them
+- Using structs to create objects
 - 
 
 This VS project can be found [here](https://github.com/sheldyso/ASCII-Lunar-Lander).
@@ -71,7 +72,7 @@ This assignment required use of a single header Game library developed by Sumo D
 
 ## Programming and mathematics
 
-### Semester 1 - Clay Pigeon Shooting Simulation ( Unity C# )
+### Semester 1 - Clay Pigeon Shooting Simulation ( Unity,  C# )
 
 For this assignment, the goal was to program projectile motion using SUVAT equations and interception calculations to create projectiles which would be targeted by a main cannon. I had to create my own classes to be used instead of the proprietary Unity classes which would include their own Dot product, Cross Product, .
 
