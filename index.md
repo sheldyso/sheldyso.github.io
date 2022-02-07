@@ -36,7 +36,7 @@ The completed notebook can be viewed [here](https://github.com/sheldyso/Rock-Pap
 
 ### Semester 1 - Business Report
 
-For this assignment, I had to create a business report on a project that would utilise data which was a customer personality analysis dataset. The business report can be found [here](https://github.com/sheldyso/sheldyso.github.io/blob/main/Business%20Report.pdf).
+For this assignment, I had to create a business report on a project that would utilise data which was a customer personality analysis dataset. The business report can be found [here](https://github.com/sheldyso/sheldyso.github.io/blob/main/Business%20Report.pdf). To explore the dataset, I opened a Jupyter notebook and used pandas to import the csv dataset and look at the features.
 
 ### Semester 2 - 
 
