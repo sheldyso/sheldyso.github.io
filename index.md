@@ -4,6 +4,10 @@
 
 I am currently studying BSc Applied Artificial Intelligence at the University Of Gloucestershire. I am also a Course Representative within the students union which improves my skills and coordination in multiple areas. My LinkedIn page can be viewed [here](https://www.linkedin.com/in/dylan-sheldon-0378281b9/)
 
+### About My Course
+
+
+
 ## Level 4
 
 At level 4, I have 8 Assignments in 4 modules spread across 2 semesters.
@@ -13,6 +17,7 @@ At level 4, I have 8 Assignments in 4 modules spread across 2 semesters.
 ### Semester 1 - Training a Fastai Convolutional Neural Network ( Jupyter NoteBook )
 
 For this assignment, I used a rock, paper, scissors image dataset and created mutiple CNN learners to explore different methods of improving the accuracy of the predictions. This was done in a Jupyter notebook using google colaboratory for the training. This was also paired with SciKit-image. The following libraries were used:
+
 - numpy
 - pandas
 - os
@@ -44,11 +49,14 @@ For this assignment, I had to create a business report on a project that would u
 In this assignment, I had to create an approximation of the classic 1979 Atari game, "Lunar Lander" with a supporting video to show the gameplay.
 
 The following libraries were used:
+
 - Windows.h
 - string
 - chrono
 
-Initially, the game was developed inside of Main.cpp, whilst this helped to set out the initial structure, it cluttered the overall code and needed to be seperated into the appropriate files. I created a Game.cpp file that contained the game logic to reduce the size of Main.cpp. Additional Header files were also made:
+Initially, the game was developed inside of Main.cpp, whilst this helped to set out the initial structure, it cluttered the overall code and needed to be seperated into the appropriate files. I created a Game.cpp file that contained the game logic to reduce the size of Main.cpp. 
+Additional Header files were also made:
+
 - Constants.h
 - Utility.h
 - GameObjects.h
@@ -91,4 +99,15 @@ As a Course Representative, I have to take Feedback from my Course-mates as need
 
 ### Certifications
 
-I am currently working towards a certificiation with [FreeCodeCamp](https://www.freecodecamp.org/learn/) on Scientific Computing with Python. Once completed, the certification will be available on LinkedIn. I also plan to complete the Data visualisation certification as it strongly coincides with my current studies in my Systems Design and Development and Introduction to AI module.
+I am currently working towards a certificiation with [FreeCodeCamp](https://www.freecodecamp.org/learn/) on Scientific Computing with Python. Once completed, the certification will be available to view on LinkedIn. I also plan to complete the Data visualisation certification as it strongly coincides with my current studies in my Systems Design and Development and Introduction to AI module.
+
+### Gloucestershire Employability Award : Bronze
+
+I am currently working towards my Bronze Employability award as part of the University of Gloucestershires Future Plan extra-carricular and skills development achievements. The bronze award consists of 4 main sections:
+
+- Attend 5 workshops or resources.
+- Log 20 Hours of Professional Development or work experience
+- Complete a career readiness report 
+- Write a reflection on the preceeding tasks
+
+For my 20 hours, I logged 1 hour for my course representative role as I took part in the course conference and held discussions in class with the Course leader and students. For the remaining 19 hours, The development of this placement portfolio will go towards my professional development.
