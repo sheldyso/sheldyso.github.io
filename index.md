@@ -24,7 +24,7 @@ For this assignment, I used a rock, paper, scissors image dataset and created mu
 The Test, Train and Validation sets were already seperated into 2 duplicate folders. One was used for the original Training to gauge a baseline and then another to add Augmented images for further training. Initially, the predictions were not accurate on the unmodified dataset. The model was confusing scissors for hands. I tried finding the optimum learning rate which proved to be inaffective when predicting on the Validation set. The first learner produced inconsistent graphs when training. After trying larger image sizes, the model seemed to improve slightly but not enough. I then tried Image Augmentation with SciKit-Image. I created 2 functions, One to randomly rotate an image, and the other to iterate over a given Directory of images and return new copies of the images with random rotations. This took Approximately 8 mins to run and generated 2157 images, doubling the starting total. Using this expanded set improved the accuracy of the predictions significantly, which also used a larger resnet size of 50 instead of 32, which guessed only 3 wrong out of the 33 in the validation set. Which resulted in an accuracy of 90.91%.
 The completed notebook can be viewed [here](https://github.com/sheldyso/Rock-Paper-Scissors-CNN/blob/main/Rock_Paper_Scissors_CNN.ipynb).
 
-### Semester 2 - SciKit-Learn data insights and visualisation
+### Semester 2 - SciKit-Learn Data Insights and Visualisation
 
 **Current Assignment**
 
@@ -39,8 +39,6 @@ For this assignment, I had to create a business report on a project that would u
 **Current Assignment**
 
 ## Programming Alogrithms and Techniques
-
-**Current Assignment**
 
 ### Semester 1 - ASCII Game Engine ( C++ )
 
@@ -72,7 +70,7 @@ This VS project can be found [here](https://github.com/sheldyso/ASCII-Lunar-Land
 
 ### Semester 2 - Retro Arcade Classic ( C++ )
 
-This assignment required use of a single header Game library developed by Sumo Digital called the "PlayBuffer" library.
+This assignment requires use of a single header Game library developed by Sumo Digital called the "PlayBuffer" library.
 
 **Current Assignment**
 
