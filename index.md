@@ -4,10 +4,6 @@
 
 I am currently studying BSc Applied Artificial Intelligence at the University Of Gloucestershire. I am also a Course Representative within the students union which improves my skills and coordination in multiple areas. My LinkedIn page can be viewed [here](https://www.linkedin.com/in/dylan-sheldon-0378281b9/)
 
-### About My Course
-
-
-
 ## Level 4
 
 At level 4, I have 8 Assignments in 4 modules spread across 2 semesters.
@@ -25,7 +21,7 @@ For this assignment, I used a rock, paper, scissors image dataset and created mu
 - skimage
 - random
 
-The Test, Train and Validation sets were already seperated into 2 duplicate folders. One was used for the original Training to gauge a baseline and then another to add Augmented images for further training. Initially, the predictions were not accurate on the unmodified dataset. The model was confusing scissors for hands. I tried finding the optimum learning rate which proved to be inaffective when predicting on the Validation set. The first learner produced inconsistent graphs when training. After trying larger image sizes, the model seemed to improve slightly but not enough. I then tried Image Augmentation with SciKit-Image. I created 2 functions, One to randomly rotate an image, and the other to Iterate over a given Directory of images and return new copies of the images with random rotations. This took Approximately 8 mins to run and generated 2157 images, doubling the starting total. Using this expanded set improved the accuracy of the predictions significantly, which also used a larger resnet size of 50 instead of 32, which guessed only 3 wrong out of the 33 in the validation set. This results in an accuracy of 90.91%.
+The Test, Train and Validation sets were already seperated into 2 duplicate folders. One was used for the original Training to gauge a baseline and then another to add Augmented images for further training. Initially, the predictions were not accurate on the unmodified dataset. The model was confusing scissors for hands. I tried finding the optimum learning rate which proved to be inaffective when predicting on the Validation set. The first learner produced inconsistent graphs when training. After trying larger image sizes, the model seemed to improve slightly but not enough. I then tried Image Augmentation with SciKit-Image. I created 2 functions, One to randomly rotate an image, and the other to iterate over a given Directory of images and return new copies of the images with random rotations. This took Approximately 8 mins to run and generated 2157 images, doubling the starting total. Using this expanded set improved the accuracy of the predictions significantly, which also used a larger resnet size of 50 instead of 32, which guessed only 3 wrong out of the 33 in the validation set. Which resulted in an accuracy of 90.91%.
 The completed notebook can be viewed [here](https://github.com/sheldyso/Rock-Paper-Scissors-CNN/blob/main/Rock_Paper_Scissors_CNN.ipynb).
 
 ### Semester 2 - SciKit-Learn data insights and visualisation
@@ -36,9 +32,11 @@ The completed notebook can be viewed [here](https://github.com/sheldyso/Rock-Pap
 
 ### Semester 1 - Business Report
 
-For this assignment, I had to create a business report on a project that would utilise data which was a customer personality analysis dataset. The business report can be found [here](https://github.com/sheldyso/sheldyso.github.io/blob/main/Business%20Report.pdf). To explore the dataset, I opened a Jupyter notebook and used pandas to import the csv dataset and look at the features.
+For this assignment, I had to create a business report on a project that would utilise data which was a customer personality analysis dataset. To explore the dataset, I opened a Jupyter notebook and used pandas to import the csv dataset and look at the features. I concluded that the machine learning application of the dataset would be to create a model based off their type of purchases and find patterns. This could be done with unsupervised learning such as clustering. The model would then be used in a mobile shopping application to create targeted ads or personalised shopping lists. As part of the report, I explored the dataset requirements with ethical consideration, database design, Software Development methodology, software and hardware requirements, costing and staffing, and finalised with legal considerations. The business report can be found [here](https://github.com/sheldyso/sheldyso.github.io/blob/main/Business%20Report.pdf).
 
-### Semester 2 - 
+### Semester 2 - Implementing a Database with Machine Learning / Data science Pipeline
+
+**Current Assignment**
 
 ## Programming Alogrithms and Techniques
 
@@ -78,13 +76,13 @@ This assignment required use of a single header Game library developed by Sumo D
 
 **Current Assignment**
 
-## Programming and mathematics
+## Programming and Mathematics
 
 ### Semester 1 - Clay Pigeon Shooting Simulation ( Unity,  C# )
 
 For this assignment, the goal was to program projectile motion using SUVAT equations and interception calculations to create projectiles which would be targeted by a main cannon. I had to create my own classes to be used instead of the proprietary Unity classes which would include their own Dot product, Cross Product, Magnitude, Rotation and Vector Conversion functions.
 
-### Semester 2 - 
+### Semester 2 - Math(s) Library and Unity Tanks Scene
 
 **Current Assignment**
 
