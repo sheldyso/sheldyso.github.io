@@ -1,0 +1,166 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Dylan Sheldon | RPS-CNN</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo"><strong>Portfolio</strong> <span>Dylan Sheldon</span></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="comingsoon.html">About Me</a></li>
+							<li><a href="projects.html">Projects</a></li>
+
+							<!--
+							<li><a href="generic.html">Generic</a></li>
+							<li><a href="elements.html">Elements</a></li>
+							-->
+						</ul>
+						<ul class="icons">
+							<!--<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>-->
+							<!--<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>-->
+							<!--<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>-->
+							<li><a href="https://github.com/sheldyso" class="icon brands alt fa-github" target="_blank" rel="noopener noreferrer"><span class="label">GitHub</span></a></li>
+							<li><a href="https://www.linkedin.com/in/dylan-sheldon-01b8D/" class="icon brands alt fa-linkedin-in" target="_blank" rel="noopener noreferrer"><span class="label">LinkedIn</span></a></li>
+						</ul>
+						<!--
+						<ul class="actions stacked">
+							<li><a href="#" class="button primary fit">Get Started</a></li>
+							<li><a href="#" class="button fit">Log In</a></li>
+						</ul>
+					-->
+					</nav>
+
+				<!-- Main -->
+					<div id="main" class="alt">
+
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+									<header class="major">
+										<h1>Rock Paper Scissors CNN</h1>
+									</header>
+									<span class="image main"><img src="images/augimages.png" alt="" /></span>
+									<p>For one of my first year assignments, I used a rock, paper, scissors image dataset and created mutiple CNN learners to explore different methods of improving the accuracy of the predictions. This was done in a Jupyter notebook using google colab for the training. This was also paired with SciKit-image.</p>
+									<p>The following libraries were used:</p>
+									<ul>
+										<li>Numpy</li>
+										<li>Pandas</li>
+										<li>OS</li>
+										<li>Fast.ai</li>
+										<li>SciKit-Image</li>
+										<li>Random</li>
+									</ul>
+									<p>The test, train and validation sets were already seperated into 2 duplicate folders. One was used for the original training to gauge a baseline and then another to add augmented images for further training. Initially, the predictions were not accurate on the unmodified dataset. The model was confusing scissors for hands. I tried finding the optimum learning rate which proved to be inaffective when predicting on the validation set. The first learner produced inconsistent graphs when training. After trying larger image sizes, the model seemed to improve slightly but not enough. I then tried Image Augmentation with SciKit-Image. I created 2 functions, One to randomly rotate an image, and the other to iterate over a given Directory of images and return new copies of the images with random rotations. This took Approximately 8 mins to run and generated 2157 images, doubling the starting total. Using this expanded set improved the accuracy of the predictions significantly, which also used a larger resnet size of 50 instead of 32, which guessed only 3 wrong out of the 33 in the validation set. Which resulted in an accuracy of 90.91%.</p>
+									<p><a href="https://github.com/sheldyso/Rock-Paper-Scissors-CNN/blob/main/Rock_Paper_Scissors_CNN.ipynb" class="button primary" target="_blank" rel="noopener noreferrer">View Notebook</a></p>
+								</div>
+							</section>
+
+					</div>
+
+				<!-- Contact -->
+				<!--
+					<section id="contact">
+						<div class="inner">
+							<section>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="6"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Clear" /></li>
+									</ul>
+								</form>
+							</section>
+							<section class="split">
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-envelope"></span>
+										<h3>Email</h3>
+										<a href="#">information@untitled.tld</a>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-phone"></span>
+										<h3>Phone</h3>
+										<span>(000) 000-0000 x12387</span>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-home"></span>
+										<h3>Address</h3>
+										<span>1234 Somewhere Road #5432<br />
+										Nashville, TN 00000<br />
+										United States of America</span>
+									</div>
+								</section>
+							</section>
+						</div>
+					</section>
+				-->
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<ul class="icons">
+								<!--
+								<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+								-->
+								<li><a href="https://github.com/sheldyso" class="icon brands alt fa-github" target="_blank" rel="noopener noreferrer"><span class="label">GitHub</span></a></li>
+								<li><a href="https://www.linkedin.com/in/dylan-sheldon-01b8D/" class="icon brands alt fa-linkedin-in" target="_blank" rel="noopener noreferrer"><span class="label">LinkedIn</span></a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; Dylan Sheldon</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
