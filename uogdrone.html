@@ -67,46 +67,46 @@
 						<!-- Two -->
 							<section id="two" class="spotlights">
 								<section>
-									<img src="images/position tracker.png" width="575" height="515" alt="" data-position="center center" />
+									<img src="images/position tracker.png"alt="" data-position="center center" style="width: 55vw; min-width: 575px;"/>
 									<div class="content">
 										<div class="inner">
 											<header class="major">
 												<h3>Tracking Script</h3>
 											</header>
-											<p></p>
+											<p>To be able to use the learning from the unity environment, the objects position needed to be tracked. The script was programmed using C# and the SQLite .NET package, storing the positions every second into a local database.</p>
 										</div>
 									</div>
 								</section>
 								<section>
-									<video src="videos/Drone pathfind.mp4" width="575" height="515" autoplay muted loop></video>
+									<video src="videos/Drone pathfind.mp4" autoplay muted loop data-position="25% 25%" style="width: 55vw; min-width: 575px;"></video>
 									<div class="content">
 										<div class="inner">
 											<header class="major">
 												<h3>Training in Unity</h3>
 											</header>
-											<p></p>
+											<p>The initial training was done in Unity where NavMesh and NavMeshAgents were used to path-find between 2 points, avoiding pillars in the room. The script tracked the x and y position, with optional z, and updated the database with the tracking script attached to the agent.</p>
 										</div>
 									</div>
 								</section>
 								<section>
-									<img src="images/commanderscript.png" width="575" height="515" alt="" data-position="25% 25%" />
+									<img src="images/commanderscript.png" alt="" data-position="25% 25%" style="width: 55vw; min-width: 575px;"/>
 									<div class="content">
 										<div class="inner">
 											<header class="major">
 												<h3>Building the flight controller</h3>
 											</header>
-											<p></p>
+											<p>The drone used was a DJI educational-series drone.  A python script containing a commander class uses the drones API to control the drone. The class has functions to allow the drone to move to the next position or previous in the database, take-off, and land. Should an error occur, and connection is lost, the drone will always land in place.</p>
 										</div>
 									</div>
 								</section>
 								<section>
-									<img src="images/controlloop.png" width="575" height="515" alt="" data-position="25% 25%" />
+									<img src="images/controlloop.png" alt="" data-position="25% 25%" style="width: 55vw; min-width: 575px;"/>
 									<div class="content">
 										<div class="inner">
 											<header class="major">
 												<h3>Control Loop</h3>
 											</header>
-											<p></p>
+											<p>The class takes all positions from the database and allows the user to tell the drone to move to the next position or previous using the arrow keys. It was entirely possible to allow the drone to move of its own accord, but an element of control needed to be always maintained until obstacle avoidance and detection measures were implemented.</p>
 										</div>
 									</div>
 								</section>
@@ -117,7 +117,7 @@
 											<header class="major">
 												<h3>Testing the initial learning</h3>
 											</header>
-											<p></p>
+											<p>During a test, the drone was able to move from one end of the room to the other but did require some manual adjustments in the data. The next step from this is to refine the shape and size of the room model and undergo some more pathfinding and store the data.</p>
 										</div>
 									</div>
 								</section>
@@ -130,7 +130,8 @@
 									<header class="major">
 										<h2>Where to from here?</h2>
 									</header>
-									<p></p>
+									<p>Once we are confident that the sizes of the drone and room model are accurate, then there may be considerations on allowing the drone to be fully autonomous with a manual override.</p>
+									<a href="https://github.com/sheldyso/Drone-Ing-On-project" class="button primary" target="_blank" rel="noopener noreferrer">View Project Files</a>
 								</div>
 							</section>
 						
