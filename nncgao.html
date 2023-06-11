@@ -82,9 +82,10 @@
 									<div class="content">
 										<div class="inner">
 											<header class="major">
-												<h3>The Neuron</h3>
+												<h3>The Neuron and Layer</h3>
 											</header>
 											<p>When initialised, the neuron creates connections of the number of neurons in the next layer. These connections have randomly set weights which have a function to obtain them. Each neuron has a weighted sum function which will take an incoming set of weights and inputs, perform a dot product operation and sum the resultant. This value is then passed into a RELU activation function.</p>
+											<p>The layer is used as a wrapper object for neurons. It has methods to order the weights which will get the first weight of each prior neuron for the first neuron of the current layer and so on. This results in the weights having same dimensions as the inputs from the previous layer, allowing the weighted sum to be performed.</p>
 										</div>
 									</div>
 								</section>
@@ -93,9 +94,10 @@
 									<div class="content">
 										<div class="inner">
 											<header class="major">
-												<h3>The Layer</h3>
+												<h3>Network Architecture</h3>
 											</header>
-											<p>The layer is used as a wrapper object for neurons. It has methods to order the weights which will get the first weight of each prior neuron for the first neuron of the current layer and so on. This results in the weights having same dimensions as the inputs from the previous layer, allowing the weighted sum to be performed.</p>
+											<p>The neural network classifier class was created such that the number of hidden layers and their sizes can be customised. It automatically scales the input and output layers depending on the number of features given in the training data and number of unique labels.</p>
+											<p>Once an input has passed through all layers, the final layer uses a softmax operation to return a set of probabilities normalised between 0 and 1. From this, the loss from the predicted against the actual is calculated using cross entropy between the one hot encoded actual label and the probability vector.</p>
 										</div>
 									</div>
 								</section>
@@ -107,11 +109,10 @@
 												<h3>Network Architecture </h3>
 											</header>
 											<p>The neural network classifier class was created such that the number of hidden layers and their sizes can be customised. It automatically scales the input and output layers depending on the number of features given in the training data and number of unique labels.</p>
-											<p>Once an input has been passed through all layers, the final layer uses a softmax operation to return a set of probabilities normalised between 0 and 1. From this, the loss from the predicted against the actual is calculated using cross entropy between the one hot encoded actual label and the probability vector.</p>
+											<p>Once an input has passed through all layers, the final layer uses a softmax operation to return a set of probabilities normalised between 0 and 1. From this, the loss from the predicted against the actual is calculated using cross entropy between the one hot encoded actual label and the probability vector.</p>
 										</div>
 									</div>
 								</section>
-
 							</section>
 						<!-- Three -->
 						
@@ -120,7 +121,7 @@
 									<header class="major">
 										<h2>Example Notebook</h2>
 									</header>
-									<p>An example along with the class itself can be found on my github page.</p>
+									<p>An example along with the class itself can be found on my github page. Feel free to give it a go!</p>
 									<a href="https://github.com/sheldyso/Drone-Ing-On-project" class="button primary" target="_blank" rel="noopener noreferrer">View Notebook</a>
 								</div>
 							</section>
