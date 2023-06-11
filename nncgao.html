@@ -60,69 +60,104 @@
 									<header class="major">
 										<h2>About The Project</h2>
 									</header>
-									<p>As part of my optimisation algorithms module, the task was to develop an algorithm to optimise a problem. I wanted to gain a better understanding of neural networks, more so on how they function. I challenged myself with creating my own neural network class which would be the basis for my optimisation problem. With prior knowledge of implementing genetic algorithms from the first semester, I chose this as the optimiser.</p>
+									<p>As part of an optimisation algorithm module, the task was to develop an algorithm to optimise a problem. I wanted to gain a better understanding of neural networks, more so on how they function. I challenged myself with creating my own neural network class which would be the basis for my optimisation problem. With prior knowledge of implementing genetic algorithms from the first semester, I chose this as the optimiser.</p>
+								
+									<div class="content">
+										<ul class="actions">
+											<li><a href="#two" class="button scrolly">How It Works</a></li>
+											<li><a href="#three" class="button">Video Demonstration</a></li>
+											<li><a href="#five" class="button">Code Files</a></li>
+										</ul>
+									</div>
 								</div>
 							</section>
 
 						<!-- Two -->
 							<section id="two" class="spotlights">
 								<section>
-									<img src="images/pic09.jpg" alt="" data-position="center center" style="width: 55vw; min-width: 575px;"/>
-									<div class="content">
-										<div class="inner">
-											<header class="major">
-												<h3>Network Contents</h3>
-											</header>
-											<p></p>
-										</div>
-									</div>
-								</section>
-								<section>
-									<img src="images/pic09.jpg" alt="" data-position="center center" style="width: 55vw; min-width: 575px;"/>
+									<img src="images/network.jpg" alt="" data-position="center center" style="width: auto; height: auto;"/>
 									<div class="content">
 										<div class="inner">
 											<header class="major">
 												<h3>The Neuron and Layer</h3>
 											</header>
-											<p>When initialised, the neuron creates connections of the number of neurons in the next layer. These connections have randomly set weights which have a function to obtain them. Each neuron has a weighted sum function which will take an incoming set of weights and inputs, perform a dot product operation and sum the resultant. This value is then passed into a RELU activation function.</p>
+											<p>I approached the problem by reading various literature on how neural networks function. As my knowledge progressed, I implemented what I learnt. This resulted in 2 core components of the network which were a neuron, and layer class.</p>
+											<p>When initialised, the neuron creates connections of the number of neurons in the next layer. These connections have randomly set weights between 0 and 1 which have a function to obtain them. Each neuron has a weighted sum function which will take an incoming set of weights and inputs, perform a dot product operation and sum the resultant. This value is then passed into a RELU activation function.</p>
 											<p>The layer is used as a wrapper object for neurons. It has methods to order the weights which will get the first weight of each prior neuron for the first neuron of the current layer and so on. This results in the weights having same dimensions as the inputs from the previous layer, allowing the weighted sum to be performed.</p>
 										</div>
 									</div>
 								</section>
 								<section>
-									<img src="images/pic09.jpg" alt="" data-position="center center" style="width: 55vw; min-width: 575px;"/>
+									<img src="images/nncfeedforward.png" alt="" data-position="center center" style="width: auto; height: auto;"/>
 									<div class="content">
 										<div class="inner">
 											<header class="major">
 												<h3>Network Architecture</h3>
 											</header>
 											<p>The neural network classifier class was created such that the number of hidden layers and their sizes can be customised. It automatically scales the input and output layers depending on the number of features given in the training data and number of unique labels.</p>
-											<p>Once an input has passed through all layers, the final layer uses a softmax operation to return a set of probabilities normalised between 0 and 1. From this, the loss from the predicted against the actual is calculated using cross entropy between the one hot encoded actual label and the probability vector.</p>
+											<p>Once an input has been passed through all layers, the final layer uses a softmax operation to return a set of probabilities normalised between 0 and 1. From this, the loss is calculated using cross entropy between the one hot encoded actual label and the probability vector.</p>
 										</div>
 									</div>
 								</section>
+								<div class="inner">
+									<div class="row">
+										<!--ROW 1-->
+										<div class="col-4 col-12-medium">
+											<h3>Converting weights to a genetic sequence</h3>
+											<p>The optimiser is based on a genetic algorithm. Each generation of the algorithm will undergo a fitness calculation, selection, crossover and mutation. The heuristic used will be the loss of the network.</p>
+											<p>To convert the weights into a genome sequence, each weight configuration is unpacked into a one-dimensional array, resulting in each gene representing a single weight. Once the network is ready to be tested or used, the new weights are inserted back into the network in the same way they were unpacked.</p>
+										</div>
+										<!--ROW 2-->
+										<div class="col-4 col-12-medium">
+											<h3>Fitness, Selection And Crossover</h3>
+											<p>The fitness for each sequence of weights is measured by summing the loss of all training data in one feed forward and dividing the total loss by 1. This results in high loss sequences having a score tending towards 0 and fitter sequences toward 1.</p>
+											<p>All sequences are then sorted in a descending order by fitness score. The top 50% of sequences are selected and passed into a crossover function which performs a single-point crossover about the centre-point of the sequence; resulting in two new offspring sequences. This effectively brings the population back to its original size which includes the new sequences and original sequences, maintaining a level of diversity.</p>
+										</div>
+										<div class="col-4 col-12-medium">
+											<h3>Mutation</h3>
+											<p>The mutation function will only mutate a sequence if a threshold has been met. Typically, mutation rates tend to be between 0.01% and 5%, with more frequently occurring mutations the higher the rate. Each gene in the sequence has this chance of mutating. If successful, will add a random value between –2 and 2 to that gene, with a further 2% chance of flipping the sign.</p>
+										</div>
+									</div>
+								</div>
+								<hr class="major" />
+							</section>
+
+							
+						<!-- Three -->
+
+							<section id="three">
+								<div class="inner">
+									<header class="major">
+										<h2>Video Demonstration</h2>
+									</header>
+										<!-- style="margin-left: auto; margin-right: auto; width: 50%;" -->
+									<video src="videos/Using NNCGAO.mp4" autoplay muted loop style="display: block; margin: auto; width: 80%; height: auto;"></video>
+								</div>
+							</section>
+
+							<!-- Four -->
+							<section id="four" class="spotlights">
 								<section>
-									<img src="images/pic09.jpg" alt="" data-position="center center" style="width: 55vw; min-width: 575px;"/>
+									<img src="images/nncgaopredict.png" alt="" data-position="center center" style="width: 55vw; height: auto;"/>
 									<div class="content">
 										<div class="inner">
 											<header class="major">
-												<h3>Network Architecture </h3>
+												<h3>Making Predictions</h3>
 											</header>
-											<p>The neural network classifier class was created such that the number of hidden layers and their sizes can be customised. It automatically scales the input and output layers depending on the number of features given in the training data and number of unique labels.</p>
-											<p>Once an input has passed through all layers, the final layer uses a softmax operation to return a set of probabilities normalised between 0 and 1. From this, the loss from the predicted against the actual is calculated using cross entropy between the one hot encoded actual label and the probability vector.</p>
+											<p>Once the model has been optimised, the predict method can be used. This will return an integer value which represents the class number. It is important that the same number of features used to train the network is given to the prediction method.</p>
 										</div>
 									</div>
 								</section>
 							</section>
-						<!-- Three -->
-						
-							<section id="three">
+
+							<!-- Five -->
+							<section id="five">
 								<div class="inner">
 									<header class="major">
-										<h2>Example Notebook</h2>
+										<h2>Project Files</h2>
 									</header>
-									<p>An example along with the class itself can be found on my github page. Feel free to give it a go!</p>
-									<a href="https://github.com/sheldyso/Drone-Ing-On-project" class="button primary" target="_blank" rel="noopener noreferrer">View Notebook</a>
+									<p>An example notebook along with the python files can be found on my github page. Feel free to give it a go!</p>
+									<a href="https://github.com/sheldyso/NNCGAO" class="button primary" target="_blank" rel="noopener noreferrer">View Github Repo</a>
 								</div>
 							</section>
 						
